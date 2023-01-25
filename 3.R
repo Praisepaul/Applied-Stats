@@ -1,0 +1,6 @@
+Names = c("Praise Paul","Grace Paul","Sharath Harikumar","Akshitha Gopu","Angel Maria Stanly","Sukhavasi Siddarth","Lavanya","Srajana","Fathima")
+CAT_1 = c(49,42,44,48,46,42,40,49,50)
+CAT_2 = c(50,49,40,42,47,48,44,42,49)
+print(list(c(Names,CAT_2)))
+print(max(CAT_1))
+print(min(CAT_1))
