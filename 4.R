@@ -1,0 +1,6 @@
+x <- c(20, 30, 40, 50, 60, 70, 80)
+f <- c(5, 3, 1, 2, 3, 2, 1)
+y <- rep(x, f)
+mean <- sum(y) / length(y)
+print(mean)
+print(median(y))
