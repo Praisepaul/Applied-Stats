@@ -3,7 +3,7 @@
 k <- 25
 p <- 0.6
 n <- 50
-prob <- 1 - pbinom(25, 50, 0.6)
+prob <- 1 - pbinom(24, 50, 0.6)
 print(c("The probability is: ", prob))
 
 # Suppose widgits produced at ACME widgit work have probability 0.005 of being
@@ -28,7 +28,7 @@ print(c("The probability is: ", prob2a))
 
 # ii) At least 2 defectives
 
-prob2b <- 1 - dbinom(2, 20, 0.1)
+prob2b <- 1 - dbinom(1, 20, 0.1)
 print(c("The probability is: ", prob2b))
 
 # iii) Between 1 and 3 defectives
